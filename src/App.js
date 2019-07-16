@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import ImageGrid from './components/ImageGrid';
 
@@ -27,7 +27,7 @@ const userData = {
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Profile userData={userData} />
       <ImageGrid posts={userData.posts} />
     </div>
